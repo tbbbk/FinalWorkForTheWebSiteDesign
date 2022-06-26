@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0%;
+    font-family: "宋体";
+}
+
+body
+{
+    background-image: url('../img/BG.png');
+}
+
+#header
+{
+    position: fixed;
+    top:0;
+    width: 100%;
+    text-align: left;
+    height: 7%;
+    background-color: rgb(100,149,237);
+    color: white;
+}
+
+#menu
+{
+    position: fixed;
+    top: 11%;
+    left: 2%;
+    width: 10%;
+    padding: 10px 5px;
+}
+
+#menu a
+{
+    background-color: #eee;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#a_1
+{
+    border-style: none;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#a_10
+{
+    border-style: none;
+    border-radius: 0px 0px 15px 15px;
+}
+
+#menu a:hover
+{
+    background-color: #ccc;
+}
+
+#menu a.active
+{
+    background-color: rgb(100,149,237);
+    color: white;
+}
+
+#content
+{
+    position: absolute;
+    top: 12%;
+    right: 8%;
+    width: 75%;
+    border-style: none;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #eee;
+    z-index:-1;
+}
+
+#content h2
+{
+    border-style: none;
+    border-radius: 10px 10px 0px 0px;
+    /* 标题高度 */
+    height: 50px;
+    /* 标题颜色 */
+    color: white;
+    /* 背景颜色 */
+    background-color: rgb(100,149,237);
+    /* 行间距 */
+    line-height: 50px;
+    /* 标题缩进 */
+    text-indent: 50px;
+}
+
+#footer
+{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    background-color: rgb(100,149,237);
+    text-align: center;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+}
